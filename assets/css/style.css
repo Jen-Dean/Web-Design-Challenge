@@ -21,11 +21,20 @@
 
 body {
     background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     padding: 20px;
     color: teal;
+    font-weight: bolder;
+}
+
+h2 {
+    color: teal;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .contents-box {
@@ -61,14 +70,20 @@ h1 {
 
 }
 
+.bg-light {
+
+}
+
+.navbar {
+    padding: 0px;
+    border-bottom: 2px solid teal;
+}
 .navbar-brand {
-    color: white;
+    color: white    !important; 
     background-color: teal;
-    text-decoration-color: white;
-    font: white;
-    padding: 10px;
-    font-size: x-large;
     color-adjust: white;
+    padding: 20px;
+    font-size: 20px;
 }
 
 /*<!-- Item's to SHOW/HIDE during LOW WIDTH -->*/
@@ -85,12 +100,18 @@ h1 {
         
     .navbar-toggler {
         display: inline;
+        background-color: teal;
         }
     .table-responsive {
         display: none;
     }
     .table-responsive-sm {
         display: block;
+    }
+
+    .navbar, .bg-light, .navbar-light, .navbar-expand-lg {
+        background-color: teal  !important;
+        color: teal;
     }
 }
 
