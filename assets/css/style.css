@@ -97,6 +97,7 @@ p {
 
     .collapse ul {
         display: inline;
+        color: white;
         }
         
     .navbar-toggler {
@@ -114,7 +115,12 @@ p {
         background-color: teal  !important;
         color: teal;
         margin-bottom: 20px;
+        padding-left: 30px;
         
+    }
+
+    .nav-link {
+        color: white    !important;
     }
 }
 
