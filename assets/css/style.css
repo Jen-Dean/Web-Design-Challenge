@@ -27,9 +27,18 @@ h1 {
 .contents-box {
     background-color: white;
     margin: 50px;
-    background-size: 500px;
-    block-size: 500px;
 }
+
+#narrow {
+    float: right;
+    width: 500px;
+  }
+
+#wide {
+    float: left;
+    width: 60%;
+  }
+
 
 .justify-content-end {
     color: black;
