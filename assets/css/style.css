@@ -9,6 +9,10 @@
 .navbar-toggler {
     display: none;
 }
+
+.table-responsive-sm {
+    display:none;
+}
 /*<!-- Item's to HIDE during FULL WIDTH -->*/
 
 
@@ -82,5 +86,11 @@ h1 {
     .navbar-toggler {
         display: inline;
         }
+    .table-responsive {
+        display: none;
+    }
+    .table-responsive-sm {
+        display: block;
+    }
 }
 
