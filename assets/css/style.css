@@ -83,8 +83,11 @@ p {
     color: white    !important; 
     background-color: teal;
     color-adjust: white;
-    padding: 20px;
-    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 /*<!-- Item's to SHOW/HIDE during LOW WIDTH -->*/
