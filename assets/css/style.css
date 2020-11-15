@@ -39,6 +39,14 @@ h2 {
 
 p {
     padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.selected_box {
+    border: 5px;
+    border-style: double;
+    color: teal;
 }
 
 .contents-box {
