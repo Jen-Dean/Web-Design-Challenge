@@ -1,1 +1,77 @@
-/* Your stylesheet */
+
+
+/*<!-- Item's to HIDE during FULL WIDTH -->*/
+
+.collapse ul {
+    display: none;
+}
+
+.navbar-toggler {
+    display: none;
+}
+/*<!-- Item's to HIDE during FULL WIDTH -->*/
+
+
+
+/*<!-- General Styling -->*/
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    padding: 20px;
+    color: teal;
+}
+
+.contents-box {
+    background-color: white;
+    margin: 50px;
+    background-size: 500px;
+    block-size: 500px;
+}
+
+.justify-content-end {
+    color: black;
+    text-decoration-color: black;
+}
+
+.nav-link {
+    color: black;
+    text-decoration-color: black;
+
+}
+
+.dropdown {
+    color: black;
+    text-decoration-color: black;
+
+}
+
+.navbar-brand {
+    color: white;
+    background-color: teal;
+    text-decoration-color: white;
+    font: white;
+    padding: 10px;
+    font-size: x-large;
+    color-adjust: white;
+}
+
+/*<!-- Item's to SHOW/HIDE during LOW WIDTH -->*/
+
+@media (max-width: 600px) {
+    
+    .justify-content-end {
+        display: none;
+        }
+
+    .collapse ul {
+        display: inline;
+        }
+        
+    .navbar-toggler {
+        display: inline;
+        }
+}
+
