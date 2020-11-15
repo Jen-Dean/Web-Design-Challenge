@@ -37,21 +37,14 @@ h2 {
     font-weight: bold;
 }
 
-.contents-box {
-    background-color: white;
-    margin: 50px;
+p {
+    padding-left: 30px;
 }
 
-#narrow {
-    float: right;
-    width: 500px;
-  }
-
-#wide {
-    float: left;
-    width: 60%;
-  }
-
+.contents-box {
+    background-color: white;
+    align-content: center;
+}
 
 .justify-content-end {
     color: black;
@@ -77,6 +70,7 @@ h2 {
 .navbar {
     padding: 0px;
     border-bottom: 2px solid teal;
+    margin-bottom: 20px;
 }
 .navbar-brand {
     color: white    !important; 
@@ -112,6 +106,8 @@ h2 {
     .navbar, .bg-light, .navbar-light, .navbar-expand-lg {
         background-color: teal  !important;
         color: teal;
+        margin-bottom: 20px;
+        
     }
 }
 
